@@ -2,9 +2,9 @@
 import socket
 import threading
 
-HOST='127.0.0.1' # this is the like the target address where we need to connect so the target is our own computer
+HOST='127.0.0.1'     # this is the like the target address where we need to connect so the target is our own computer
 PORT=57815           # again the clinet can run to find a free port code or can use this particular port, its his/her choice
-# notet he server port and client port should be same
+# note the server port and client port should be same
 
 def main():
     '''
