@@ -9,6 +9,12 @@ A simple real-time chat application built with Python using the `socket` module 
 - Easy to set up and run locally
 - Uses Python's standard `socket` module for networking
 
+## Communication Sequence
+
+To help you understand how the chat server works, here’s a visual overview of the communication sequence:
+
+![Chat Server Communication Sequence](./chat_server_communication_sequence.png)
+
 ## Requirements
 
 - Python 3.x
@@ -63,6 +69,7 @@ Chat-Application/
 ├── to_find_a_free_port.py     # Utility to find a free port
 ├── static/                    # (For future Flask web interface)
 ├── templates/                 # (For future Flask web interface)
+├── chat_server_communication_sequence.png  # Communication sequence diagram
 └── README.md
 ```
 
