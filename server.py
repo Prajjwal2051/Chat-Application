@@ -19,6 +19,7 @@ def main():
     
     '''
     server=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+    print("Server is running...")
 
     # now creating a try and catch block
 
@@ -43,7 +44,7 @@ def main():
         client,address=server.accept()  # we created two varaibles that contain the clinet socket using and what is the address of it
         print(f"Sucessfully connected to client {address[0]} {address[1]}") 
         # here address is the tuple so address[0] will print the host and address[1] will print the port which is using
-        
+
 
 
 if __name__=="__main__":
